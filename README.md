@@ -34,6 +34,13 @@ Under "Bot Permissions", select "Administrator".
 Copy the generated URL at the bottom of the page and paste it into your browser. This will redirect you to Discord, where you can invite the bot to your private server.
 
 ## Preparing the Code
+
+Make sure you install the following Node JS dependencies:
+-discord.js
+-dotenv
+
+To install these, you go to your project Terminal and type "npm install discord.js dotenv"
+
 Before running the app, you'll need to configure it with your bot's token.
 Create a .env file in the project directory
 Add your token in the .env file like: TOKEN=your_token
